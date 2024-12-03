@@ -1,157 +1,158 @@
-*{
-    font-family: sans-serif;
-    font-weight: bold;
+* {
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 /* Css. Header */
 
-header{
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    background-color: #FF6801;
-    border-bottom: 1px solid #9DABAD;
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #ff6801;
+  border-bottom: 1px solid #9dabad;
 }
 
-figure{
-    text-align: center;
+figure {
+  text-align: center;
 }
 
-.gender>a{
-    color: white;
-    text-decoration: none;
+.gender > a {
+  color: white;
+  text-decoration: none;
 }
 
-.icon{
-    fill: white;
+.icon {
+  fill: white;
 }
 
-.gender , .icon {
-    display: flex;
-    gap: 20px;
+.gender,
+.icon {
+  display: flex;
+  gap: 20px;
 }
 
 /* Css. Main */
 
-main{
-    display: flex;
-    gap: 20px;
-    padding-inline: 10%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    flex-wrap: wrap;
-    justify-content: center;
+main {
+  display: flex;
+  gap: 20px;
+  padding-inline: 10%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* CARD */
-.card{
-    display: flex;
-    flex-direction: column;
-    position: relative;
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 /* DESCRIZIONE CARD */
-.first-row{
-    color: gray;
+.first-row {
+  color: gray;
 }
 
-.second-row{
-text-transform: uppercase;
+.second-row {
+  text-transform: uppercase;
 }
 .price-cut {
-    color: gray;
-    text-decoration: line-through;
+  color: gray;
+  text-decoration: line-through;
 }
 
-.third-row>.discount{
-    text-decoration: none;
-    color: red;
+.third-row > .discount {
+  text-decoration: none;
+  color: red;
 }
 
 /* Css. Blocchi Interni Img */
 
-.filter{
-    display: flex;
-    gap: 5px;
-    position: absolute;
-    top: 80%;
+.filter {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  top: 80%;
 }
 
-.filter>.discount{
-    color: white;
-    background-color: red;
-    padding: 7px
+.filter > .discount {
+  color: white;
+  background-color: red;
+  padding: 7px;
 }
 
-.sustainable{
-    background-color: #008001;
-    color: white;
-    padding: 7px
+.sustainable {
+  background-color: #008001;
+  color: white;
+  padding: 7px;
 }
 
 /* Css. Heart Icon Card */
 
-.heart{
-    position: absolute;
-    top: 15px;
-    padding: 7px 15px;
+.heart {
+  position: absolute;
+  top: 15px;
+  padding: 7px 15px;
 
-    background-color: white;
-    font-size: 25pt;
+  background-color: white;
+  font-size: 25pt;
 
-    display: flex;
-    align-self:flex-end;
+  display: flex;
+  align-self: flex-end;
 }
 
-.heart:hover{
-    color: red;
+.heart:hover {
+  color: red;
 }
 
 /* Css. Footer */
 
-footer{
-    display: flex;
-justify-content: space-between;
+footer {
+  display: flex;
+  justify-content: space-between;
 
-background-color: #1A1A1A;
-padding: 50px 100px;
+  background-color: #1a1a1a;
+  padding: 50px 100px;  
 }
 
-footer>* {
-    color: white;
-    font-size: 12pt;
+footer > * {
+  color: white;
+  font-size: 12pt;
 }
 
 /* Css. Parte sinistra Footer */
-.left{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.ent{
-    font-size: 16pt;
-    font-weight: bolder;
+.ent {
+  font-size: 16pt;
+  font-weight: bolder;
 }
 
-.link-utili{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+.link-utili {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 /* Css. Parte destra Footer */
 
-.right{
-    font-size: 15pt;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.right {
+  font-size: 15pt;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.link-social{
-    display: flex;
-    gap: 10px;
+.link-social {
+  display: flex;
+  gap: 10px;
 }
 
 .twitter,
@@ -159,8 +160,7 @@ footer>* {
 .facebook,
 .youtube,
 .pinterest {
-    background-color: white;
-    padding: 5px;
-    border-radius: 4px;
-
+  background-color: white;
+  padding: 5px;
+  border-radius: 4px;
 }
