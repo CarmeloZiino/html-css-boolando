@@ -33,3 +33,130 @@ figure{
 
 /* Css. Main */
 
+main{
+    display: flex;
+    gap: 20px;
+    padding-inline: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* CARD */
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* DESCRIZIONE CARD */
+.first-row{
+    color: gray;
+}
+
+.second-row{
+text-transform: uppercase;
+}
+.price-cut {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.third-row>.discount{
+    text-decoration: none;
+    color: red;
+}
+
+/* Css. Blocchi Interni Img */
+
+.filter{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 80%;
+}
+
+.filter>.discount{
+    color: white;
+    background-color: red;
+    padding: 7px
+}
+
+.sustainable{
+    background-color: #008001;
+    color: white;
+    padding: 7px
+}
+
+/* Css. Heart Icon Card */
+
+.heart{
+    position: absolute;
+    top: 15px;
+    padding: 7px 15px;
+
+    background-color: white;
+    font-size: 25pt;
+
+    display: flex;
+    align-self:flex-end;
+}
+
+/* Css. Footer */
+
+footer{
+    display: flex;
+justify-content: space-between;
+
+background-color: #1A1A1A;
+padding: 50px 100px;
+}
+
+footer>* {
+    color: white;
+    font-size: 12pt;
+}
+
+/* Css. Parte sinistra Footer */
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ent{
+    font-size: 16pt;
+    font-weight: bolder;
+}
+
+.link-utili{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* Css. Parte destra Footer */
+
+.right{
+    font-size: 15pt;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link-social{
+    display: flex;
+    gap: 10px;
+}
+
+.twitter,
+.instagram,
+.facebook,
+.youtube,
+.pinterest {
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
+
+}
