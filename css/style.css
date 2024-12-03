@@ -108,6 +108,65 @@ main {
   color: red;
 }
 
+/* Hover Card */
+
+.one:hover .img1 {
+  display: none;
+}
+
+.one:hover .img2 {
+  display: block;
+}
+
+.img2 {
+  display: none;
+}
+
+/* Hover Card 2 */
+.two:hover .img1 {
+  display: none;
+}
+
+.two:hover .img2 {
+  display: block;
+}
+
+/* Hover Card 3 */
+.three:hover .img1 {
+  display: none;
+}
+
+.three:hover .img2 {
+  display: block;
+}
+
+/* Hover Card 4 */
+.four:hover .img1 {
+  display: none;
+}
+
+.four:hover .img2 {
+  display: block;
+}
+
+/* Hover Card 5 */
+.five:hover .img1 {
+  display: none;
+}
+
+.five:hover .img2 {
+  display: block;
+}
+
+/* Hover Card 6 */
+.six:hover .img1 {
+  display: none;
+}
+
+.six:hover .img2 {
+  display: block;
+}
+
 /* Css. Footer */
 
 footer {
@@ -115,7 +174,7 @@ footer {
   justify-content: space-between;
 
   background-color: #1a1a1a;
-  padding: 50px 100px;  
+  padding: 50px 100px;
 }
 
 footer > * {
