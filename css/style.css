@@ -1,0 +1,35 @@
+*{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* Css. Header */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #FF6801;
+    border-bottom: 1px solid #9DABAD;
+}
+
+figure{
+    text-align: center;
+}
+
+.gender>a{
+    color: white;
+    text-decoration: none;
+}
+
+.icon{
+    fill: white;
+}
+
+.gender , .icon {
+    display: flex;
+    gap: 20px;
+}
+
+/* Css. Main */
+
