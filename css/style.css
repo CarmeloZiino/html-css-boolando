@@ -103,6 +103,10 @@ text-transform: uppercase;
     align-self:flex-end;
 }
 
+.heart:hover{
+    color: red;
+}
+
 /* Css. Footer */
 
 footer{
